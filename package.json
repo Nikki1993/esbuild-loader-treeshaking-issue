@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack --mode=production",
-    "esbuild": "esbuild index.jsx --bundle --outfile=./esbuild_dist/main.js"
+    "webpack": "webpack --mode=production --profile --json='./webpack_dist/meta.json'",
+    "esbuild": "node esbuild.js"
   },
   "keywords": [],
   "author": "",

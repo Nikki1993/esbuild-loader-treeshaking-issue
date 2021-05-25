@@ -8,6 +8,7 @@ module.exports = {
 	mode: 'production',
 
 	entry: './index.jsx',
+    devtool: 'source-map',
 
 	output: {
 		clean: true,
